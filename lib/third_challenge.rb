@@ -29,14 +29,14 @@ def third_challenge
   
 end
 
-describe "#third_challenge" do 
+def third_challenge
 	it "fills out the Montague character role keys with the key/value pairs describing their attributes" do 
-    expect(third_challenge[:montague][:patriarch].keys).to eq([:name, :age])
-    expect(third_challenge[:montague][:matriarch].keys).to eq([:name, :age])
-    expect(third_challenge[:montague][:hero].keys).to eq([:name, :age, :status])
-    expect(third_challenge[:montague][:patriarch].values).to eq(["Lord Montague", "53"])
-    expect(third_challenge[:montague][:matriarch].values).to eq(["Lady Montague", "54"])
-    expect(third_challenge[:montague][:hero].values).to eq(["Romeo", "15", "alive"])
+    (third_challenge[:montague][:patriarch].keys)=([:name, :age])
+    (third_challenge[:montague][:matriarch].keys)=([:name, :age])
+    (third_challenge[:montague][:hero].keys)=([:name, :age, :status])
+    (third_challenge[:montague][:patriarch].values)=(["Lord Montague", "53"])
+    (third_challenge[:montague][:matriarch].values)=(["Lady Montague", "54"])
+    (third_challenge[:montague][:hero].values)=(["Romeo", "15", "alive"])
   end
 
   it "fills out the Capulet character role keys with the key/value pairs describing their attributes" do 
