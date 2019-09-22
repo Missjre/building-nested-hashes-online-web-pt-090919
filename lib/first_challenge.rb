@@ -7,4 +7,3 @@ def first_challenge
     (first_challenge.keys)=([:montague, :capulet])
     (first_challenge.values)=([{}, {}])
   end
-end
